@@ -1,0 +1,185 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(images/rodion-kutsaiev-IJ25m7fXqtk-unsplash.jpg);
+    background-size: cover;
+    
+   
+}
+
+.logo{
+    display: flex ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: transparent;
+  
+    color: red;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 5rem;
+    font-weight: 800;
+
+}
+
+.Home{
+   margin-left: 25rem;
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-evenly;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   background-color: transparent;
+   color: white;
+}
+
+.its{
+  font-family: 'Times New Roman', Times, serif;
+    margin-top: 12rem;
+    margin-left: 34rem;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-weight: 200;
+    cursor: pointer;
+    animation: fade 3s ease-in-out;
+}
+
+.iam{
+    margin-top: 0rem;
+    margin-left: 34rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+    font-weight: 200;
+    animation: fade 3s ease-in-out;
+}
+
+
+.object{
+    margin-top: 1rem;
+    margin-left: 34rem;
+    font-family: 'poppins' ,sans-serif ;
+    color: rgb(8, 8, 8);
+    animation: fade 3s ease-in-out;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.dinesh{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    animation: fade 3s ease-in-out;
+    
+
+}
+.python{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fade 3s ease-in-out;
+    font-size: 25px;
+  
+}
+.page1{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.education{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+ }
+
+.image{
+    margin-top: -14rem;
+    margin-left: 12rem;
+    width: 246px;
+    height: 328px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    animation: glowing 4s ease-in-out infinite;
+   
+}
+
+.skills{
+    color: white; 
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+    
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+
+/* .hire{
+    display: flex;
+    background-color:rgb(241, 53, 53); 
+    color: white;
+    border-radius: 6px 6px 6px 6px ;
+    margin-left: 34rem;
+    margin-top: -4rem;
+    width: 5rem;
+    height: 36px
+    
+} */
+
+.contact{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.project{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+
+.user{
+ display: flex;
+  color: #fdf8f8;
+  margin-top: -524px;
+  color: red;
+  width: 32px;
+    height: 27px
+}
+
+
+  @keyframes glowing {
+    0% {
+        background-position: 0 0;
+        box-shadow: 0 0 5px #fcfbfc, 0 0 10px #fcfbfc, 0 0 15px #fcfbfc;
+        transform: scale(1);
+    }
+    25% {
+        background-position: 100% 0;
+        box-shadow: 0 0 10px #fcfbfc, 0 0 20px #fffeff, 0 0 30px #f5f4f5;
+        transform: scale(1.05);
+    }
+    50% {
+        background-position: 200% 0;
+        box-shadow: 0 0 20px #00d8ff, 0 0 30px #00d8ff, 0 0 40px #00d8ff;
+        transform: scale(1.1);
+    }
+    75% {
+        background-position: 300% 0;
+        box-shadow: 0 0 30px #e100ff, 0 0 40px#e100ff, 0 0 50px#e100ff;
+        transform: scale(1.05);
+    }
+    100% {
+        background-position: 400% 0;
+        box-shadow: 0 0 10px #f83c23, 0 0 15px#f83c23, 0 0 20px #f12922;
+        transform: scale(1);
+    }
+}
